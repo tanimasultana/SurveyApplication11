@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SurveyApplication</string>
+    <string name="name1">How frequent you use our product ?<font color='#FF0000'>*</font></string>
+    <string name="name2">Where do you live ?<font color='#FF0000'>*</font></string>
+    <string name="name3">Do you like our product ?<font color='#FF0000'>*</font></string>
+    <string name="name4">How are you ?<font color='#FF0000'>*</font></string>
+
+</resources>

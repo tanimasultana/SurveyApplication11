@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ballon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ballon"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintLeft_toLeftof="parent"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintTop_toTopof="parent"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="700dp" />
+
+
+
+    <Button
+        android:id="@+id/sub"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sub_btn"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_toRightof="parent"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintTop_toBottomof="parent"
+        tools:layout_constraintTop_toLeftof="parent"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="503dp" />
+
+</android.support.constraint.ConstraintLayout>
